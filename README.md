@@ -90,6 +90,6 @@ Built an HR attrition prediction system using Python and machine learning to ide
 - Add SHAP plots for better model interpretability
 
 ## Author
-Your Name
+HARIKRISHNA S
 Data Science Internship Project
 >>>>>>> 2ee52bc (Initial commit)
