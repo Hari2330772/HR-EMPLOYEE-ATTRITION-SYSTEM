@@ -2,6 +2,8 @@
 
 A professional data science project that predicts employee attrition using machine learning and presents the results through an interactive Streamlit dashboard.
 
+![HR Attrition Dashboard](outputs/eda_plots.png)
+
 ## Overview
 This project addresses a practical business problem in human resources: identifying employees who are likely to leave the company. It demonstrates an end-to-end data science workflow, including data preprocessing, exploratory data analysis, model building, evaluation, and deployment as a web application.
 
@@ -92,11 +94,5 @@ Built an HR employee attrition prediction system using Python, machine learning,
 - Improve the user interface for a more polished presentation
 
 ## Author
-<<<<<<< HEAD
 HARIKRISHNA S
 Data Science Internship Project
->>>>>>> 2ee52bc (Initial commit)
-=======
-Hari
-Data Science Internship Project
->>>>>>> 075ac1d (Polish README and gitignore)
