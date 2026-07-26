@@ -1,22 +1,19 @@
-<<<<<<< HEAD
-# HR-EMPLOYEE-ATTRITION-SYSTEM
-=======
 # HR Employee Attrition Prediction System
 
-A beginner-friendly data science project built to predict employee attrition using machine learning and present the results through an interactive Streamlit dashboard.
+A professional data science project that predicts employee attrition using machine learning and presents the results through an interactive Streamlit dashboard.
 
-## Project Overview
-This project focuses on solving a real-world HR problem: predicting whether an employee is likely to leave the company. It demonstrates an end-to-end data science workflow including data preprocessing, exploratory data analysis, model training, evaluation, and deployment as a web app.
+## Overview
+This project addresses a practical business problem in human resources: identifying employees who are likely to leave the company. It demonstrates an end-to-end data science workflow, including data preprocessing, exploratory data analysis, model building, evaluation, and deployment as a web application.
 
-## Problem Statement
-HR teams often need to identify employees at risk of leaving so they can take preventive action. This project builds a predictive model that helps flag potential attrition risk based on employee attributes.
+## Why This Project Matters
+Employee attrition affects productivity, hiring costs, and team stability. This project helps HR teams and managers identify potential employee turnover risks early and take preventive actions.
 
 ## Key Features
-- Exploratory data analysis with visual insights
 - Data cleaning and preprocessing
+- Exploratory data analysis with visual insights
 - Machine learning model training and comparison
 - Evaluation using accuracy, F1-score, and ROC-AUC
-- Streamlit dashboard for interactive predictions
+- Interactive dashboard for real-time predictions
 
 ## Tech Stack
 - Python
@@ -38,9 +35,15 @@ HR EMPLOYEE/
 └── outputs/
 ```
 
+## Screenshots
+### EDA and Insights
+![EDA Analysis](outputs/eda_plots.png)
+
+### Model Evaluation
+![Model Evaluation](outputs/model_evaluation.png)
+
 ## Dataset
-The project supports any CSV file containing an Attrition column with values such as Yes/No.
-If no dataset is provided, the project can generate a synthetic IBM-style HR dataset for demonstration purposes.
+The project supports any CSV file containing an Attrition column with values such as Yes/No. If no dataset is provided, it can generate a synthetic IBM-style HR dataset for demonstration purposes.
 
 ## Installation
 ```bash
@@ -60,36 +63,40 @@ streamlit run app_streamlit.py
 Then open the local URL shown in the terminal.
 
 ## Models Used
-The project compares several classifiers, including:
 - Logistic Regression
 - Random Forest
 - Gradient Boosting
 
 ## Evaluation Metrics
-The models are evaluated using:
 - Accuracy
 - F1-score
 - ROC-AUC
 - Confusion Matrix
 
-## Why This Project Is Good for Resume
-This project shows practical skills that recruiters look for in entry-level data science roles:
+## Skills Demonstrated
+This project highlights important skills for aspiring data scientists and analysts:
 - Data preprocessing
 - Exploratory data analysis
 - Machine learning
 - Model evaluation
-- Dashboard deployment
+- Dashboard development
+- Business problem solving
 
 ## Resume-Ready Summary
-Built an HR attrition prediction system using Python and machine learning to identify employees at risk of leaving. The project includes data analysis, model comparison, and an interactive Streamlit dashboard for real-time predictions.
+Built an HR employee attrition prediction system using Python, machine learning, and Streamlit to identify employees at risk of leaving. The project includes data analysis, model comparison, and an interactive dashboard for practical decision-making.
 
 ## Future Improvements
-- Add feature importance explanation
-- Deploy the app on Streamlit Cloud or Heroku
-- Use a real public HR dataset for improved accuracy
-- Add SHAP plots for better model interpretability
+- Deploy the app on Streamlit Cloud
+- Add SHAP-based model explanations
+- Use a real public HR dataset for higher accuracy
+- Improve the user interface for a more polished presentation
 
 ## Author
+<<<<<<< HEAD
 HARIKRISHNA S
 Data Science Internship Project
 >>>>>>> 2ee52bc (Initial commit)
+=======
+Hari
+Data Science Internship Project
+>>>>>>> 075ac1d (Polish README and gitignore)
